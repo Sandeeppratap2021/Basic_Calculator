@@ -1,0 +1,44 @@
+#answer{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 5px 5px 3px grey,
+    inset -5px -5px 3px white;
+}
+.calc{
+    background: rgb(200, 200,200 );
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+input{
+    font-size: 35px;
+    width: 100px;
+    height: 90px;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 3px grey, -5px -5px 3px white;
+    background: rgb(200, 200,200 );
+    outline: none;
+}
+input:hover{
+    background-color: rgb(245, 246, 242);
+}
+
+@media screen and (max-width: 950px) {
+    input{
+        font-size: 25px;
+        width: 80px;
+        height: 70px;
+    }
+    #answer{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 10px;
+       
+    }
+
+}
